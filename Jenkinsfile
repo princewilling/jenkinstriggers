@@ -5,6 +5,7 @@ pipeline {
 			steps{
 				sh 'echo "Build completed."'
 				sh 'uptime'
+				sh 'ls -ltr'
 			}
 		}
 	}
